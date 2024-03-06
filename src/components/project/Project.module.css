@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    margin: 0 -10px;  */
+    background-color: #3a3a3a;
+  }
+  
+  .container h3 {
+    color: #ffff;
+    background-color: inherit;
+    margin-top: 5rem;
+    font-size: 45px;
+    width: 100%;
+    text-align: left;
+    margin-left: 25rem;
+    width: fit-content;
+    border-bottom: 5px solid #ec7608;
+  }
+  
+  .container p {
+    background-color: inherit;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin-left: 25rem;
+    color: #ec7608;
+  }
+
+  .projectTo{
+    background-color: inherit;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin-left: 25rem;
+    margin-top: 2rem;
+  }
+
+.containerProject{
+    background-color: inherit;
+    margin-bottom: 3rem;
+    position: relative;
+    
+}
+
+.containerProject span {
+    background-color: inherit;
+    color: #ecad0d; /* Cambia el color a tu preferencia, por ejemplo, rojo (#ff0000) */
+}
+  
+
+.containerProject h2 {
+    background-color: inherit;
+    color: #ffff; /* Cambia el color a tu preferencia, por ejemplo, rojo (#ff0000) */
+}
+
+.containerProject ul, li {
+    background-color: inherit;
+    color: #ffff; /* Cambia el color a tu preferencia, por ejemplo, verde (#00ff00) */
+    list-style-type: none;
+}
+
+.containerProject p {
+    margin: 2rem 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 500px;
+    text-align: left;
+    margin-left: 0rem;
+    color: #ffff;
+    box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+    float: left; /* Alinea el párrafo a la izquierda */
+
+}
+
+.containerProject ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .containerProject li {
+    display: inline-block;
+    color: #e1f012; /* Cambia el color a tu preferencia, por ejemplo, verde (#00ff00) */
+    margin-right: 15px; 
+    margin-top: .5rem;
+  }
+
+  .containerProject a {
+    background-color: inherit;
+  }
+  
+  
+
+.imageProyect {
+    max-width: 500px; /* Ancho máximo para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px;
+    float: right; /* Alinea la imagen a la derecha */
+    opacity: .5;
+    transition: .3s;
+}
+.imageProyect:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+
+.githubIcon,
+.linkIcon {
+  font-size: 25px; /* Ajusta el tamaño del ícono según sea necesario */
+  color: #ffff;
+  margin: 7px 7px;
+  box-shadow: 0 2px 4px rgba(248, 196, 136, 0.8);
+  transition: .3s;
+}
+.githubIcon:hover,
+.linkIcon:hover {
+transform: scale(1.06);
+  cursor: pointer;
+  color: #e8a20b;
+}
+
+  
+ 

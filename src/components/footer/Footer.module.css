@@ -1,0 +1,43 @@
+/* Estilos para el componente Footer */
+
+/* Contenedor principal */
+.FooterContainer {
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+  }
+
+
+  .FooterContainer p{
+    font-size: 18px;
+    color: #e8a20b;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contenedor para los iconos */
+  .iconsContainer {
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  /* Estilos para los iconos */
+  .githubIcon,
+  .linkIcon {
+    margin-top: 5rem;
+    font-size: 25px; /* Ajusta el tamaño del ícono según sea necesario */
+    color: #ffff;
+    margin: 7px 7px;
+    box-shadow: 0 2px 4px rgba(248, 196, 136, 0.8);
+    transition: .3s;
+  }
+  
+  /* Efecto de hover */
+  .githubIcon:hover,
+  .linkIcon:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    color: #e8a20b;
+  }
+  

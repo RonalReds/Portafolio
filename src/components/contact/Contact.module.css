@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    max-width: 800px;
+}
+.container h3 {
+    color: #ffff;
+    background-color: inherit;
+    margin-top: 3rem;
+    font-size: 45px;
+    width: 100%;
+    text-align: left;
+    margin-left: 25rem;
+    width: fit-content;
+    border-bottom: 5px solid #ec7608;
+  }
+  
+
+.container p {
+    background-color: inherit;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin-left: 25rem;
+    color: #ec7608;
+    margin-bottom: 4rem;
+}
+
+
+.container form input,
+.container form textarea {
+    margin-left: 42rem;
+    display: block;
+    margin-bottom: 1rem; /* Agrega un espacio entre cada campo */
+    color: #ffff;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.container form input{
+    font-family: inherit;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 40px;
+    border: 1px solid #f7f4f4;;
+    border-radius: 5px;
+}
+.container form textarea{
+    border-radius: 5px;
+    border: 1px solid #f7f4f4;;
+    padding-top: 10px;
+    font-family: inherit;
+    resize: none;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 150px;
+}
+
+.container form button{
+    margin-bottom:6rem;
+    margin-left: 56rem;
+    padding: 8px 25px;
+    font-size: 17px;
+    color: #ffff;
+    border: 1.5px solid #f7f4f4;
+    box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.container form button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #ec7608;
+}
+
+
+.container form input:hover,
+.container form textarea:hover {
+   cursor: pointer;
+   box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+}
+
+.msjP {
+    margin: 0 0 0 3rem;
+    height: .5rem;
+    color: rgb(24, 24, 23);
+    opacity: .9;
+}

@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  background-color:#333333;
+  width: 60vw;
+  height: 600px;
+  margin-left: 25rem;
+  
+}
+
+.tex1{
+  width: 300px;
+  margin-right: 26rem;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.title{
+  width: 350px;
+  margin-right: 23rem;
+  font-size: 60px;
+  color: #ec7608;
+  text-align: left;
+}
+
+.Stack{
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+}
+
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  text-align: center; /* Centrar el texto */
+  margin-top: 5rem;
+  text-align: left;
+}
+
+.boxTex2{
+  
+  margin-right: 23rem;
+  margin-top: 4rem;
+  font-size: 40px;
+  color: #ec7608;
+}
+
+.image {
+  border-radius: 50%;
+  margin-top: 8rem;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+  margin: 10px 0; /* Añadir margen entre los elementos */
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los íconos horizontalmente */
+  margin-left:8rem;
+}
+
+.iconContainer {
+  margin-top: 10px; /* Espacio entre la imagen y los íconos */
+}
+
+.githubIcon,
+.linkedinIcon {
+  font-size: 30px; /* Ajusta el tamaño del ícono según sea necesario */
+  color: #ffffff;
+  margin: 7px 18px;
+  box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+  transition: .3s;
+}
+
+.githubIcon:hover,
+.linkedinIcon:hover {
+  cursor: pointer;
+  color: #ec7608;
+}
+
+
+.btnContact{
+  border: 1px solid #ec7608;
+  color: #ffffff;
+  margin-top: 2.5rem;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+  transition: .3s;
+}
+
+.btnContact:hover{
+  cursor: pointer;
+  transform: scale(1.06);
+  background-color: #ec7608;
+  
+}

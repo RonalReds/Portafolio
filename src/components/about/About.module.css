@@ -1,0 +1,45 @@
+/* Estilo para el contenedor principal */
+.container {
+    width: 100%;
+    display: flex; 
+    /* justify-content: center; */
+    margin-top: 15rem;
+    background-color: #3a3a3a;
+  }
+  
+  /* Estilo para el contenedor de texto */
+  .textContainer {
+    padding: 5rem 0 5rem 0;
+    background-color: inherit;
+    max-width: 800px; /* Ancho máximo del contenedor de texto */
+    text-align: left; /* Alinea el texto al centro */
+    margin-left: 25rem;
+  }
+
+.container .textContainer h3,
+.container .textContainer h2,
+.container .textContainer p {
+    background-color: inherit;
+}
+  
+  /* Estilo para los títulos */
+  .container .textContainer h3{
+    font-size: 45px; /* Tamaño de fuente */
+    color: #ffffff;
+    width: fit-content;
+    border-bottom: 5px solid #ec7608;
+  }
+  
+  .container .textContainer h2 {
+    font-size: 30px;
+    color: #ec7608;
+  }
+  
+  /* Estilo para los párrafos */
+  .container .textContainer p {
+    font-size: 20px;
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
