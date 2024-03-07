@@ -10,7 +10,7 @@ const Project = forwardRef((props, ref)=> {
     
     { title: "Proyecto Destacado", name: 'Pokemon App', description: "Es una SPA basada en la API de pokémon. Cuenta con un formulario controlado y las validaciones esta en JavaScript. Por medio de este el usuario puede crear nuevos y mejores pokemones. También puede realizar filtros y búsquedas por nombres.", image: 'https://i.ibb.co/DGVdhn3/Pokemon.png', skills: ["React", "Redux", "NodeJS", "Express", "Sequelize"], url: 'https://wedevelop.vercel.app/', repositories: 'https://github.com/RonalReds/PI-Pokemon' },
 
-    {title: "Proyecto Destacado", name: 'App de Rick and Morty', description:"Es una SPA donde el usuario tiene que loguearse para poder ingresar. Puede obtener más de 800 cards de los distintos personajes de la serie. Puede realizar búsquedas por ID, filtrarlos por genero y guardar sus favoritos.", image: 'https://i.ibb.co/xgy2TjB/Rick.png', skills: ["React", "Redux", "NodeJS", "Express", "Sequelize"], url: 'https://wedevelop.vercel.app/', repositories: 'https://github.com/RonalReds/rick_and_morty-Ft45a' }
+    {title: "Proyecto Destacado", name: 'Rick and Morty', description:"Es una SPA donde el usuario tiene que loguearse para poder ingresar. Puede obtener más de 800 cards de los distintos personajes de la serie. Puede realizar búsquedas por ID, filtrarlos por genero y guardar sus favoritos.", image: 'https://i.ibb.co/xgy2TjB/Rick.png', skills: ["React", "Redux", "NodeJS", "Express", "Sequelize"], url: 'https://wedevelop.vercel.app/', repositories: 'https://github.com/RonalReds/rick_and_morty-Ft45a' }
   ]
   
 
@@ -45,4 +45,4 @@ const Project = forwardRef((props, ref)=> {
   )
 })
 
-export default Project
+export default Project;

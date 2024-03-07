@@ -4,7 +4,7 @@
 }
 .container h3 {
     color: #ffff;
-    background-color: inherit;
+    /* background-color: inherit; */
     margin-top: 3rem;
     font-size: 45px;
     width: 100%;
@@ -16,7 +16,7 @@
   
 
 .container p {
-    background-color: inherit;
+    /* background-color: inherit; */
     font-size: 16px;
     width: 100%;
     text-align: left;
@@ -30,7 +30,7 @@
 .container form textarea {
     margin-left: 42rem;
     display: block;
-    margin-bottom: 1rem; /* Agrega un espacio entre cada campo */
+    margin-bottom: 1rem;
     color: #ffff;
     font-size: 16px;
     outline: none;
@@ -82,8 +82,78 @@
 }
 
 .msjP {
-    margin: 0 0 0 3rem;
+    text-align: center; 
+    display: inline-block;
+    margin-left:  50rem !important;
+    margin-bottom: 2rem  !important;
+    margin-top: 0 !important;
     height: .5rem;
     color: rgb(24, 24, 23);
     opacity: .9;
+}
+
+
+@media screen and ( max-width: 1600px){
+    .container h3 {
+        font-size: 40px;
+        margin-left: 7rem;
+      }
+
+      .container p {
+        margin-left: 7rem;
+    }
+
+
+    .container form input,
+    .container form textarea {
+    margin-left: 31rem;
+    }
+    .container form button{
+        margin-left: 43rem;
+    }
+    
+}
+
+
+@media screen and ( max-width: 580px){
+    .container h3 {
+        margin-left: 4rem;
+        font-size: 30px;
+      }
+      .container p { 
+        margin-left: 4rem;
+      }
+
+
+      .container form input,
+    .container form textarea {
+    margin-left: 8rem;
+    }
+
+
+    .container form input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .container form textarea{
+        width: 300px;
+        height: 150px;
+    }
+    .msjP {
+        text-align: center; 
+        width: 80%; 
+        margin-left:  10rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 2rem  !important;
+        font-size: 13px;
+        display: inline-block;
+        
+    }
+
+    .container form button{
+        font-size: 15PX;
+        margin-left: 15rem;
+    }
+
 }

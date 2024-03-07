@@ -1,12 +1,11 @@
 .container {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
+  justify-content: center;
+  align-items: center; 
   background-color:#333333;
   width: 60vw;
   height: 600px;
   margin-left: 25rem;
-  
 }
 
 .tex1{
@@ -35,8 +34,8 @@
 .textContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar horizontalmente */
-  text-align: center; /* Centrar el texto */
+  align-items: center; 
+  text-align: center;
   margin-top: 5rem;
   text-align: left;
 }
@@ -57,23 +56,24 @@
 h1,
 h2 {
   color: #ffffff;
-  margin: 10px 0; /* Añadir margen entre los elementos */
+  margin: 10px 0;
 }
 
 .imageContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra los íconos horizontalmente */
+  align-items: center; 
   margin-left:8rem;
+  padding-right: 4rem;
 }
 
 .iconContainer {
-  margin-top: 10px; /* Espacio entre la imagen y los íconos */
+  margin-top: 10px; 
 }
 
 .githubIcon,
 .linkedinIcon {
-  font-size: 30px; /* Ajusta el tamaño del ícono según sea necesario */
+  font-size: 30px;
   color: #ffffff;
   margin: 7px 18px;
   box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
@@ -102,4 +102,102 @@ h2 {
   transform: scale(1.06);
   background-color: #ec7608;
   
+}
+
+@media screen and ( max-width: 1600px){
+  .image {
+    width: 300px;
+    margin-top: 8rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#333333;
+    width: 40vw;
+    height: 400px;
+     
+  }
+
+
+  .tex1{
+    padding-left: 2rem;
+    width: 300px;
+    margin-right: 26rem;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .Stack{
+    padding-left: 2rem;
+    margin-right: 07rem;
+    width:600px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+
+
+  .title{
+    padding-left: 2rem;
+    width: 350px;
+    margin-right: 23rem;
+    font-size: 40px;
+    color: #ec7608;
+    text-align: left;
+  }
+
+  .boxTex2{
+    padding-left: 2rem;
+    margin-right: 23rem;
+    margin-top: 4rem;
+    font-size: 25px;
+    color: #ec7608;
+  }
+  
+}
+
+
+@media screen and ( max-width: 580px){
+
+  .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color:#333333;
+    width: 100vw;
+    height: 300px;
+    margin-left: 8rem;
+  }
+
+  .tex1{
+    padding-left: 8rem;
+    width: 300px;
+    font-size: 20px;
+    
+  }
+
+  .title{
+    padding-left: 8rem;
+  }
+
+  .boxTex2{
+    width: 400px;
+    padding-left: 10rem;
+    
+  }
+  
+
+  .Stack{
+    padding-left: 8rem;
+    
+  }
+
+  .image {
+    display: none;
+  }
+
 }

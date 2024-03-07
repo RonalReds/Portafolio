@@ -1,18 +1,14 @@
-/* Estilo para el contenedor principal */
 .container {
     width: 100%;
     display: flex; 
-    /* justify-content: center; */
     margin-top: 15rem;
     background-color: #3a3a3a;
   }
-  
-  /* Estilo para el contenedor de texto */
   .textContainer {
     padding: 5rem 0 5rem 0;
     background-color: inherit;
-    max-width: 800px; /* Ancho máximo del contenedor de texto */
-    text-align: left; /* Alinea el texto al centro */
+    max-width: 800px; 
+    text-align: left; 
     margin-left: 25rem;
   }
 
@@ -22,9 +18,9 @@
     background-color: inherit;
 }
   
-  /* Estilo para los títulos */
+ 
   .container .textContainer h3{
-    font-size: 45px; /* Tamaño de fuente */
+    font-size: 45px; 
     color: #ffffff;
     width: fit-content;
     border-bottom: 5px solid #ec7608;
@@ -35,11 +31,69 @@
     color: #ec7608;
   }
   
-  /* Estilo para los párrafos */
   .container .textContainer p {
     font-size: 20px;
-    line-height: 1.5; /* Espaciado entre líneas */
+    line-height: 1.5;
     color: #ffffff;
     margin-bottom: 2rem;
   }
   
+
+  @media screen and ( max-width: 1600px){
+
+
+    .textContainer {
+      padding: 5rem 0 5rem 0;
+      background-color: inherit;
+     width: 100%;
+      text-align: left; 
+      margin-left: 7rem;
+    }
+
+
+    .container .textContainer h3{
+      font-size: 40px;
+      
+    }
+
+    .container .textContainer h2 {
+      font-size: 25px;
+    }
+
+    .container .textContainer p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin-bottom: 2rem;
+    }
+
+  }
+
+
+  @media screen and ( max-width: 580px){
+    .textContainer {
+      padding: 5rem 3rem 5rem 0;
+      background-color: inherit;
+     width: 100%;
+      text-align: left; 
+      margin-left: 4rem;
+    }
+
+
+    .container .textContainer h3{
+      font-size: 30px; 
+      
+    }
+
+    .container .textContainer h2 {
+      font-size: 20px;
+    }
+
+
+    .container .textContainer p {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin-bottom: 2rem;
+    }
+  }

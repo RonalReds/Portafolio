@@ -1,8 +1,6 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between;
-    margin: 0 -10px;  */
     background-color: #3a3a3a;
   }
   
@@ -46,18 +44,18 @@
 
 .containerProject span {
     background-color: inherit;
-    color: #ecad0d; /* Cambia el color a tu preferencia, por ejemplo, rojo (#ff0000) */
+    color: #ecad0d; 
 }
   
 
 .containerProject h2 {
     background-color: inherit;
-    color: #ffff; /* Cambia el color a tu preferencia, por ejemplo, rojo (#ff0000) */
+    color: #ffff;
 }
 
 .containerProject ul, li {
     background-color: inherit;
-    color: #ffff; /* Cambia el color a tu preferencia, por ejemplo, verde (#00ff00) */
+    color: #ffff;
     list-style-type: none;
 }
 
@@ -70,7 +68,7 @@
     margin-left: 0rem;
     color: #ffff;
     box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
-    float: left; /* Alinea el párrafo a la izquierda */
+    float: left;
 
 }
 
@@ -82,7 +80,7 @@
   
   .containerProject li {
     display: inline-block;
-    color: #e1f012; /* Cambia el color a tu preferencia, por ejemplo, verde (#00ff00) */
+    color: #e1f012;
     margin-right: 15px; 
     margin-top: .5rem;
   }
@@ -94,10 +92,10 @@
   
 
 .imageProyect {
-    max-width: 500px; /* Ancho máximo para las imágenes */
-    height: auto; /* Altura automática para mantener la proporción */
+    max-width: 500px;
+    height: auto; 
     border-radius: 10px;
-    float: right; /* Alinea la imagen a la derecha */
+    float: right;
     opacity: .5;
     transition: .3s;
 }
@@ -110,7 +108,7 @@
 
 .githubIcon,
 .linkIcon {
-  font-size: 25px; /* Ajusta el tamaño del ícono según sea necesario */
+  font-size: 25px;
   color: #ffff;
   margin: 7px 7px;
   box-shadow: 0 2px 4px rgba(248, 196, 136, 0.8);
@@ -123,5 +121,108 @@ transform: scale(1.06);
   color: #e8a20b;
 }
 
+
+
+@media screen and ( max-width: 1600px){
+  .container h3 {
+    margin-left: 7rem;
+    font-size: 40px;
+  }
+  .container p { 
+    margin-left: 7rem;
+  }
+  .projectTo{
+    background-color: inherit;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+
+
+  .containerProject p {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 500px;
+    text-align: left;
+    margin-left: 0rem;
+    color: #ffff;
+    box-shadow: 0 4px 8px rgba(248, 196, 136, 0.8);
+    float: left;
+
+}
+}
+
+
+@media screen and ( max-width: 580px){
+  .containerProject {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container h3 {
+    margin-left: 4rem;
+    font-size: 30px;
+  }
+
+  .container p { 
+    margin-left: 4rem;
+  }
+
+
+  .projectTo{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    
+  }
+
+
+  .containerProject p {
+    /* margin: 2rem 0; */
+    font-size: 13px;
+    width: 300px;
+    margin-left: 9rem;
+
+}
+
+
+.imageProyect {
+  max-width: 300px;
+  height: auto; 
+  margin-left: 9rem;
+  border-radius: 10px;
+}
+
+.containerProject ul {
+  margin-left: 9rem;
+  padding: 0;
+  margin: 0;
+}
+
+.containerProject li {
+  font-size: 13px;
+  display: inline-block;
+  color: #e1f012;
+  margin-right: 13px; 
+  margin-top: .5rem;
+}
+
+.containerProject span,
+.containerProject h2 {
+  width: 300px;
+  margin-right: 20rem;
   
+}
+
+.containerProject .linkIcon {
+  display: none
+}
+
+
+}
  
