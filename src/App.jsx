@@ -27,10 +27,10 @@ function App() {
   return (
     <>
       <div className='nav'>
-          <span className='btn' onClick={() => handleClick(aboutRef)} name=''>SOBRE MI</span>
-          <span className='btn' onClick={() => handleClick(skillsRef)}>HABILIDADES</span>
-          <span className='btn' onClick={() => handleClick(projectRef)}>PROJECTOS</span>
-          <span className='btn' onClick={() => handleClick(contactRef)}>CONTACTO</span>
+          <span className='btn-about' onClick={() => handleClick(aboutRef)} name=''>SOBRE MI</span>
+          <span className='btn-skills' onClick={() => handleClick(skillsRef)}>HABILIDADES</span>
+          <span className='btn-project' onClick={() => handleClick(projectRef)}>PROJECTOS</span>
+          <span className='btn-contact' onClick={() => handleClick(contactRef)}>CONTACTO</span>
     </div>
     <Home ref={contactRef} />
     <About ref={aboutRef } />

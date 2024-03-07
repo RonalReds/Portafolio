@@ -117,17 +117,17 @@
 
 @media screen and ( max-width: 580px){
     .container h3 {
-        margin-left: 4rem;
+        margin-left: 2rem;
         font-size: 30px;
       }
       .container p { 
-        margin-left: 4rem;
+        margin-left: 1rem;
       }
 
 
       .container form input,
     .container form textarea {
-    margin-left: 8rem;
+    margin-left: 2rem;
     }
 
 
@@ -153,7 +153,7 @@
 
     .container form button{
         font-size: 15PX;
-        margin-left: 15rem;
+        margin-left: 9rem;
     }
 
 }

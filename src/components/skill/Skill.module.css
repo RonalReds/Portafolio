@@ -102,20 +102,19 @@
   @media screen and ( max-width: 580px){
     .container h3 {
       font-size: 30px;
-      margin-left: 4rem;
+      margin-left: 2rem;
     }
 
     .container p {
-      font-size: 16px;
-      margin-left: 4rem;   
+      font-size: 14px;
+      margin-left: 1rem;   
     }
 
     .containerMap{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 8px;
-      max-width: 1200px;
-      margin-left: 3rem;
+      margin-left: 2rem;
       margin-top: 2rem;
       cursor: pointer;
     }

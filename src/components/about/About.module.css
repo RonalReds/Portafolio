@@ -74,9 +74,9 @@
     .textContainer {
       padding: 5rem 3rem 5rem 0;
       background-color: inherit;
-     width: 100%;
+      width: 100%;
       text-align: left; 
-      margin-left: 4rem;
+      margin-left: 1rem;
     }
 
 
@@ -86,11 +86,12 @@
     }
 
     .container .textContainer h2 {
-      font-size: 20px;
+      font-size: 15px;
     }
 
 
     .container .textContainer p {
+      padding: 0 20px 0 5px;
       font-size: 13px;
       line-height: 1.5;
       color: #ffffff;

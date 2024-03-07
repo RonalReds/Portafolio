@@ -15,7 +15,10 @@
 }
 
 
-.btn {
+.btn-about,
+.btn-project,
+.btn-skills,
+.btn-contact {
   margin-top: 2rem;
   margin-bottom: 1rem;
   margin-right: 4rem;
@@ -31,7 +34,10 @@
  }
 
 
- .btn:hover {
+ .btn-about:hover,
+ .btn-project:hover,
+ .btn-skills:hover,
+ .btn-contact:hover {
   cursor: pointer;
   transform: scale(1.01);
   border-bottom: 1px solid #ec7608;
@@ -49,7 +55,10 @@
     
   }
 
-  .btn {
+  .btn-about,
+  .btn-project,
+  .btn-skills,
+  .btn-contact {
     margin-top: 2rem;
     margin-bottom: 1rem;
     margin-right: 4rem;
@@ -65,9 +74,8 @@
  }
 
  @media screen and ( max-width: 580px){
-  .btn {
-    margin-right: 2rem;
-    font-weight: 500;
-    font-size: 8px;
+  .btn-about,
+  .btn-project {
+    display: none;
    }
  }

@@ -192,12 +192,22 @@ h2 {
   
 
   .Stack{
-    padding-left: 8rem;
+    margin-right: 10rem !important;
+    width: 350px;
+    font-size: 17px;
+    /* padding-left: 8rem; */
     
+  }
+  .iconContainer {
+    display: none;
   }
 
   .image {
     display: none;
+  }
+
+  .btnContact{
+    margin-right: 8rem;
   }
 
 }

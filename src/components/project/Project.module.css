@@ -164,12 +164,12 @@ transform: scale(1.06);
   }
 
   .container h3 {
-    margin-left: 4rem;
+    margin-left: 2rem;
     font-size: 30px;
   }
 
   .container p { 
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
 
 
@@ -186,7 +186,7 @@ transform: scale(1.06);
     /* margin: 2rem 0; */
     font-size: 13px;
     width: 300px;
-    margin-left: 9rem;
+    margin-left: 2rem;
 
 }
 
@@ -194,12 +194,13 @@ transform: scale(1.06);
 .imageProyect {
   max-width: 300px;
   height: auto; 
-  margin-left: 9rem;
+  margin-left: 2rem;
   border-radius: 10px;
 }
 
 .containerProject ul {
-  margin-left: 9rem;
+  padding: 0 3px 0 3px !important;
+  margin-right: 14rem !important;
   padding: 0;
   margin: 0;
 }
@@ -208,7 +209,7 @@ transform: scale(1.06);
   font-size: 13px;
   display: inline-block;
   color: #e1f012;
-  margin-right: 13px; 
+  margin-right: 20px; 
   margin-top: .5rem;
 }
 
@@ -222,6 +223,11 @@ transform: scale(1.06);
 .containerProject .linkIcon {
   display: none
 }
+
+.containerProject .githubIcon {
+  margin-right: 15rem;
+}
+
 
 
 }

@@ -39,10 +39,16 @@
 
   @media screen and ( max-width: 580px){
     .FooterContainer p{
+      margin-right: 4rem;
       font-size: 15px;
       color: #e8a20b;
       margin-bottom: 1rem;
     }
+
+    .githubIcon,
+  .linkIcon {
+    margin-right: 4rem;
+  }
 
   }
   
