@@ -25,9 +25,9 @@ const Home = forwardRef((props, ref) => {
 
   
 
-  const handleClick = (ref) => {
+ /*  const handleClick = (ref) => {
     ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center'})
-}
+} */
 
   return (
     <div className={style.container}>
@@ -38,7 +38,9 @@ const Home = forwardRef((props, ref) => {
           y me he formado para desarrollar tus páginas Webs.</p>
         
         <h3 className={style.boxTex2}>{text.slice(0, index)}</h3>
-        <h4 className={style.btnContact} onClick={() => handleClick(ref)}>Contacto</h4>
+        <a href="https://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=ef2a2800247c6cbaee2da7db66f963e5c3cb6ca26962c013c80078d383716fd5" target="_blank" rel="noopener noreferrer">
+          <h4 className={style.btnContact}>Certificación</h4>
+        </a>
       </div>
       <div className={style.imageContainer}>
         <img src={image} alt="foto" className={style.image} />

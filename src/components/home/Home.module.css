@@ -39,6 +39,9 @@
   margin-top: 5rem;
   text-align: left;
 }
+.textContainer a {
+  text-decoration: none;
+}
 
 .boxTex2{
   
