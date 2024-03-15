@@ -111,6 +111,16 @@
     .container form button{
         margin-left: 43rem;
     }
+
+    .msjP {
+        text-align: center; 
+        width: 80%; 
+        margin-left: 32rem !important;
+        margin-bottom: 1rem  !important;
+        font-size: 13px;
+        display: inline-block;
+        
+    }
     
 }
 
