@@ -151,19 +151,17 @@
         height: 150px;
     }
     .msjP {
-        text-align: center; 
-        width: 80%; 
-        margin-left:  10rem !important;
-        margin-top: 0 !important;
-        margin-bottom: 2rem  !important;
-        font-size: 13px;
+        width: 300px !important;
+        text-align: left;
         display: inline-block;
-        
+        margin-left: 2rem !important;
+        margin-bottom: 1rem  !important;
     }
 
     .container form button{
         font-size: 15PX;
         margin-left: 9rem;
+        margin-top: 1rem;
     }
 
 }
