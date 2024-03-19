@@ -71,6 +71,13 @@
 
 
   @media screen and ( max-width: 580px){
+
+    .container {
+      width: 400px;
+      display: flex; 
+      margin-top: 15rem;
+      background-color: #3a3a3a;
+    }
     .textContainer {
       padding: 5rem 3rem 5rem 0;
       background-color: inherit;
