@@ -173,7 +173,7 @@ h2 {
     background-color:#333333;
     width:300px;
     height: 300px;
-    margin-left: 8rem;
+    margin-left: 1rem;
   }
 
   .textContainer {
@@ -217,6 +217,9 @@ h2 {
     
   }
   .iconContainer {
+    display: none;
+  }
+  .imageContainer{
     display: none;
   }
 
