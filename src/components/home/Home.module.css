@@ -171,9 +171,9 @@ h2 {
     justify-content: center; 
     align-items: center; 
     background-color:#333333;
-    width: 100vw;
+    width:300px;
     height: 300px;
-    margin-left: 4rem;
+    margin-left: 8rem;
   }
 
   .textContainer {
@@ -225,6 +225,7 @@ h2 {
   }
 
   .btnContact{
+    margin-top: 9rem;
     margin-left: 7rem;
     margin-right: 0;
   }

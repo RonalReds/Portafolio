@@ -73,7 +73,7 @@
   @media screen and ( max-width: 580px){
 
     .container {
-      width: 400px;
+      width: 100%;
       display: flex; 
       margin-top: 15rem;
       background-color: #3a3a3a;

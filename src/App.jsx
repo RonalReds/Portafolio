@@ -25,7 +25,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='container-all'>
       <div className='nav'>
           <span className='btn-about' onClick={() => handleClick(aboutRef)} name=''>SOBRE MI</span>
           <span className='btn-skills' onClick={() => handleClick(skillsRef)}>HABILIDADES</span>
@@ -38,7 +38,7 @@ function App() {
     <Project ref={projectRef }/>
     <Contact ref={contactRef} />
       <Footer />
-    </>
+    </div>
   );
 }
 

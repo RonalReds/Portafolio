@@ -7,6 +7,7 @@
 }
 
 
+
 .nav {
   display: flex;
   justify-content: flex-end; /* Alinea los elementos al final del contenedor */
@@ -74,6 +75,11 @@
  }
 
  @media screen and ( max-width: 580px){
+
+  .container-all {
+    max-width: 100%;
+  }
+  
   .btn-about,
   .btn-project {
     display: none;
@@ -85,7 +91,7 @@
     margin-left: 3rem;
     width: 300px;
     margin-right: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
   }
   
   .btn-contact {
